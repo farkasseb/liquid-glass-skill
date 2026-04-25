@@ -1,19 +1,13 @@
 ---
 name: liquid-glass
 description: >
-  Reference for Apple's Liquid Glass design system (iOS 26+, macOS 26+, Xcode 26).
-  Proactively use this skill when: (1) writing or reviewing SwiftUI/UIKit/AppKit code that uses
-  glass effects, glass buttons, scroll edge effects, background extension, toolbar grouping,
-  tab bar minimization, or sheet presentations targeting iOS 26+/macOS 26+,
-  (2) migrating an app to iOS 26 or macOS Tahoe design,
-  (3) discussing Liquid Glass design patterns, visual hierarchy, tinting, or concentricity,
-  (4) debugging glass rendering issues or performance.
-  TRIGGER when: code references glassEffect, GlassEffectContainer, glassEffectID,
-  UIGlassEffect, UIGlassContainerEffect, NSGlassEffectView, NSGlassEffectContainerView,
-  UIBackgroundExtensionView, NSBackgroundExtensionView, backgroundExtensionEffect,
-  scrollEdgeEffectStyle, .glass buttonStyle, .glassProminent, clearGlass,
-  tabBarMinimizeBehavior, GlassEffectTransition, glassEffectUnion,
-  or user mentions Liquid Glass, iOS 26 design, macOS Tahoe design, new design system.
+  Apple Liquid Glass design system reference for iOS 26+/macOS 26+/Xcode 26.
+  TRIGGER when writing/reviewing SwiftUI/UIKit/AppKit code using glassEffect,
+  GlassEffectContainer/ID, UIGlassEffect/NSGlassEffectView, background extension,
+  scroll edge effects, glass button styles, tab bar minimization, glass transitions/unions,
+  or when migrating to iOS 26/macOS Tahoe design. Also trigger for Liquid Glass hierarchy,
+  tinting, concentricity, rendering, or performance. DO NOT TRIGGER for ordinary SwiftUI
+  styling without Liquid Glass.
 ---
 
 # Liquid Glass Design System Reference
